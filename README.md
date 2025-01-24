@@ -12,6 +12,8 @@
 
 
 ## Project Structure
+
+```bash
 /src
 ├── App.jsx                 # Main application component
 ├── main.jsx                # Application entry point
@@ -39,7 +41,7 @@
 │       ├── Deliveries.jsx
 │       └── Deliveries.module.css
 
-
+```
 ## Screenshots
 
 ###  **Dashboard Overview**
