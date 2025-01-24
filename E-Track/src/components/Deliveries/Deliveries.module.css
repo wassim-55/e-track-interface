@@ -1,0 +1,58 @@
+.container {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .content {
+    margin-top: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+  }
+  
+  .badge {
+    background: var(--secondary-green);
+    color: white;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+  }
+  
+  .count {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+  
+  .actions {
+    display: flex;
+    gap: var(--spacing-md);
+  }
+  
+  .button {
+    flex: 1;
+    padding: var(--spacing-md);
+    border: 1px solid var(--primary-blue);
+    border-radius: var(--radius);
+    background: none;
+    color: var(--primary-blue);
+    cursor: pointer;
+  }
+  
+  .primaryButton {
+    flex: 1;
+    padding: var(--spacing-md);
+    border: none;
+    border-radius: var(--radius);
+    background: var(--primary-blue);
+    color: white;
+    cursor: pointer;
+  }

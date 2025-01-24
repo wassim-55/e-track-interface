@@ -1,0 +1,74 @@
+.container {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.seeMore {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--primary-blue);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.historyList {
+  margin-top: var(--spacing-md);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border-radius: var(--radius);
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+  transition: all 0.2s;
+}
+
+.alertItem {
+  background: #FEE2E2;
+  border-left: 4px solid var(--red);
+}
+
+.alertIcon {
+  color: var(--red);
+  min-width: 20px;
+}
+
+.content {
+  flex: 1;
+  margin-right: var(--spacing-md);
+}
+
+.location {
+  display: block;
+  color: var(--primary-blue);
+  font-size: 0.875rem;
+  margin-top: var(--spacing-sm);
+}
+
+.time {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.userIcon {
+  color: var(--purple);
+  min-width: 20px;
+}

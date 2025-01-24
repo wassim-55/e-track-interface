@@ -1,0 +1,122 @@
+.container {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.filters {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.filterButton {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--primary-blue);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--primary-blue);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filterButton.active {
+  background: var(--primary-blue);
+  color: var(--white);
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.card {
+  position: relative;
+  border-radius: var(--radius);
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  padding: var(--spacing-md);
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 2.5rem;
+  align-self: flex-start;
+  padding: 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.valueContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  line-height: 1;
+}
+
+.title {
+  color: var(--text-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.recharts-surface {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+  
+  .filters {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .filterButton {
+    flex: 1;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .value {
+    font-size: 1.25rem;
+  }
+  
+  .title {
+    font-size: 0.75rem;
+  }
+  
+  .icon {
+    font-size: 1rem;
+  }
+}

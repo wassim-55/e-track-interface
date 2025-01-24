@@ -1,0 +1,24 @@
+:root {
+    /* Colors */
+    --primary-dark: #2D3748;
+    --primary-blue: #3182CE;
+    --secondary-green: #48BB78;
+    --alert-red: #FC8181;
+    --background-gray: #F7FAFC;
+    --text-dark: #2D3748;
+    --text-light: #718096;
+    --white: #FFFFFF;
+    --purple: #9F7AEA;
+    --red: #F56565;
+    --green: #48BB78;
+    --blue: #3182CE;
+    
+    /* Spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    
+    /* Border */
+    --radius: 8px;
+    --shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
