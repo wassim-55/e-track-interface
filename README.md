@@ -45,9 +45,9 @@
 ## Screenshots
 
 ###  **Dashboard Overview**
-![Dashboard Overview    ](./assets/Dashboard.png)
+![Dashboard Preview](./assets/Dashboard.png)
 
-![Dashboard Overview    ](./assets/Dashboard1.png)
+![Dashboard Preview](./assets/Dashboard1.png)
 
 ## Installation
 
